@@ -1,0 +1,692 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+section
+{
+  width: 100%;
+  height: 100vh;
+  background: url("img/28.jpg");
+  filter:brightness(80%);
+  background-size: cover;
+}
+
+
+section .gauche
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+section .gauche .contenu
+{
+
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  transition:1s;
+  
+}
+section .gauche .contenu:hover
+{
+  background: #3498db;
+}
+
+.general-title
+{
+  text-align: center;
+}
+.general-text
+{
+  text-align: justify;
+}
+
+section .evenements
+{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  float: right;
+  box-sizing: border-box;
+}
+
+section .evenements ul
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+section .evenements ul li
+{
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 200px;
+  margin: 15px 0;
+
+
+}
+
+section .evenements ul li .temps
+{
+  position: relative;
+  padding: 20px;
+  background:#262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: justify;
+  transition: 2s;
+
+}
+
+
+section .evenements ul li:hover .temps
+{
+  background: #3498db
+}
+
+section .evenements ul li .temps h2
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 60px;
+  line-height: 30px;
+}
+section .evenements ul li .temps h2 span
+{
+
+  font-size: 30px;
+
+}
+
+section .evenements ul li .description
+{
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+section .evenements ul li .description h3
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+section .evenements ul li .description p
+{
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+section .evenements ul li .description a
+{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  border: 2px solid #262626;
+  margin-top: 15px;
+  font-size: 18px;
+  transition: 2s;
+}
+section .evenements ul li .description a:hover
+{
+  background: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}
+@media (max-height:854px) 
+{
+  section
+  {
+    
+    height: 100%;
+    background-position: center;
+    
+  }
+  section .gauche
+  {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 20px;
+
+  }
+  section .evenements
+  {
+    
+    width: 100%;
+    height: auto;
+    background: transparent;
+    float: none;
+    box-sizing: border-box;
+
+  }
+
+  section .gauche .contenu
+  {
+    padding: 20px;
+  }
+  section .gauche .contenu h1
+  {
+    font-size: 30px;
+  }
+  section .evenements ul 
+  {
+    position: relative;
+    transform: translateY(0px);
+    padding: 0 20px 20px;
+  }
+  section .evenements ul li
+  {
+    height: auto;
+    background: #fff;
+  }
+
+  section .evenements ul li .temps
+  {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+
+  
+  section .evenements ul li .temps h2
+  {
+    font-size: 30px;
+    line-height: 24px;
+  }
+  
+  section .evenements ul li .temps h2 span 
+  {
+    font-size:20px;
+  }
+
+  section .evenements ul li .description 
+  {
+    width: 100%;
+    float: none;
+    padding-left: 100px;
+    background: transparent;
+  }
+
+  section .evenements ul li .description a 
+  {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width:1405px) 
+{
+  section
+  {
+    
+    height: 100%;
+    background-position: center;
+    
+  }
+  section .gauche
+  {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 20px;
+
+  }
+  section .evenements
+  {
+    
+    width: 100%;
+    height: auto;
+    background: transparent;
+    float: none;
+    box-sizing: border-box;
+
+  }
+
+  section .gauche .contenu
+  {
+    padding: 20px;
+  }
+  section .gauche .contenu h1
+  {
+    font-size: 30px;
+  }
+  section .evenements ul 
+  {
+    position: relative;
+    transform: translateY(0px);
+    padding: 0 20px 20px;
+  }
+  section .evenements ul li
+  {
+    height: auto;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  section .evenements ul li .temps
+  {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+
+  
+  section .evenements ul li .temps h2
+  {
+    font-size: 30px;
+    line-height: 24px;
+  }
+  
+  section .evenements ul li .temps h2 span 
+  {
+    font-size:20px;
+  }
+
+  section .evenements ul li .description 
+  {
+    width: 100%;
+    float: none;
+    padding-left: 100px;
+    background: transparent;
+  }
+
+  section .evenements ul li .description a 
+  {
+    padding: 5px 10px;
+  }
+}
+
+
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+    
+}
+
+
+.logo_efrei
+{
+    margin-top:10px;
+    filter: contrast(150%);
+    transition: 0.5s all;
+    
+    
+}
+.logo_efrei:hover
+{
+    filter: none;
+    transform: scale(0.9);
+    
+
+}
+
+
+.logo_site
+{
+    width:300px;
+    height:200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+a.event.clearfix{
+
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  display: block;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+.page-title
+{
+text-align: center;
+}
+
+footer { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+header { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+.bouton
+{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.bouton i 
+{
+    line-height: 60px;
+    font-size: 35px;
+    transition: 0.5s linear;
+
+}
+
+.bouton:hover i 
+{
+    transform: scale(1.35);
+    color: #f1f1f1;
+}
+
+
+.bouton:before
+{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left:-110%;
+    top: 90%;
+    
+}
+
+.bouton:hover::before
+{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa
+{
+
+    0%{
+     left:-110%;
+     top: 90%;
+
+    }50%{
+     left:10%;
+     top: -30%;
+
+    }100%{
+     top: -10%;
+     left: -10%;
+        
+    }
+
+}
+
+footer {
+    color: #fff;
+}
+
+h4
+{
+    text-align: center;
+    
+}
+
+
+.footer-day-time {
+   
+    border-bottom: 2px solid #3498db;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    
+    
+}
+.footer-day-time ul li {
+  display: inline-block;
+}
+
+
+.footer-top {
+  background: #113a55;
+  padding:10px 0 10px;
+}
+.footer-top h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-top: 5px;
+   
+}
+.footer-top p {
+    font-size: 13px;
+    line-height: 2;
+}
+
+footer p {
+  margin-bottom:0;
+}
+
+.address1 li {
+    list-style: none;
+    position: relative;
+    padding: 0px 0 14px 24px;
+    line-height: 18px;
+}
+
+.address1 li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.address1 li a:hover
+{
+    text-decoration: underline;
+    
+}
+ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+}
+
+ul.address1 i.fa-envelope {
+    font-size: 18px;
+    top: 4px;
+}
+
+.col-md-4
+{
+    text-align: center;
+}
+
+.row
+{
+    justify-content: space-around;
+}
+
+.menu
+{
+    position: sticky;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #113a55;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+   
+}
+
+.menu li
+{
+    text-align: center;
+    display: block;
+    border-right: 2px solid rgba(168, 168, 168, 0.2);
+    border-left: 2px solid rgba(168, 168, 168, 0.2);
+}
+
+
+.menu li a
+{
+    text-decoration: none;
+    padding: 0 50px;
+    display: block;
+
+
+}
+
+.menu li a .makeup
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+
+.menu li a .makeup .fas
+{
+    width:100%;
+    height:100%;
+    line-height:40px;
+    font-size:32px;
+    transition: 0.5s;
+    color:#fff;
+
+}
+.menu li a:hover .makeup .fas
+{
+    transform: translateY(-100%);
+}
+
+
+.menu li a .makeup .fas:last-child
+{
+   color:#000; 
+}
+
+.menu li a .txt 
+{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.menu li a .txt span
+{
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.54s;
+    
+}
+
+.menu li a .txt span:before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+
+.menu li a:hover .txt span
+{
+    transform: translateY(20px);
+}
+
+
+@media (max-width:1195px) 
+{
+    .logo_efrei
+    {
+        margin-top:10px;
+        filter: contrast(150%);
+        transition: 0.5s all;
+        text-align: center;
+        
+        
+        
+        
+    }
+    .logo_efrei:hover
+    {
+        filter: none;
+        transform: scale(0.9);
+        
+
+    }
+
+}
+
+@media (max-width:991px) 
+{
+
+    
+    .col-md-4
+    {
+       min-width: 540px;
+    }
+
+
+
+}
+
+.footer-bottom-wrapper {
+  font-size: 0.8em;
+  color: #fff;
+  background: #0f3349;
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
