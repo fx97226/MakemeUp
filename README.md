@@ -1,6 +1,2 @@
-# Projet Web équipe: Les trois mousquetaires
+# Projet Web 
 
-
-Hilaire François-Xavier<br>
-Spatz Cécile<br>
-Maladunnage Sajani
